@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color:#0f1111;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+.nav_logo{
+    height: 50px;
+    width: 113px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.icon{
+    display: flex;
+}
+
+.addre-1st{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.addre-2nd{
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.search{
+    display: flex;
+    height: 40px;
+    width: 880px;
+    margin-left: 10px;
+    border: none;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 5px ;
+}
+.search-select{
+    background-color: #cccccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.input{
+    background-color:#ffffff ;
+    width: 800px;
+    font-size: 15px;
+    border: none;
+}
+.search-icon{
+    background-color: orange;
+    height: 40px;
+    width:45px ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_cart{
+    margin-left:20px;
+    height: 50px;
+    width: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_cart i{
+     font-size: 30px;
+     font-weight: 700;
+}
+
+.account{
+    height: 40px;
+    width: 140px;
+    align-content: center;
+    margin-left: 30px;
+}
+.list{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    border: none;
+}
+.acc-1{
+    font-size:12px ;
+    font-weight: 300;
+}
+
+.order{
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 30px;
+}
+.ord-1{
+    font-size:12px ;
+    font-weight: 300;
+}
+
+
+.navbar-2{
+    background-color:black;
+    color:white;
+    display: flex;  
+}
+.nav1{
+    margin-left: 20px;
+}
+.anker{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.hero{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-mass{
+    background-color: white;
+    color: black;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    height: 20px;
+}
+
+.shop-sect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 340px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.box-img1{
+      height: 330px;
+      width: 300px;
+      background-image: url("box1_image.jpg");   
+      background-size: cover; 
+      margin: 10px;
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+}
+
+.box-img2{
+    height: 330px;
+    width: 300px;
+    background-image: url("box2_image (1).jpg");   
+    background-size: cover; 
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.box-img3{
+    height: 330px;
+    width: 300px;
+    background-image: url("box3_image.jpg");   
+    background-size: cover; 
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.box-img4{
+    height: 330px;
+    width: 300px;
+    background-image: url("box4_image.jpg");   
+    background-size: cover; 
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.box-img5{
+    height: 330px;
+    width: 300px;
+    background-image: url("box5_image.jpg");   
+    background-size: cover; 
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.box-img6{
+    height: 330px;
+    width: 300px;
+    background-image: url("box6_image.jpg");   
+    background-size: cover; 
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.box-img7{
+    height: 330px;
+    width: 300px;
+    background-image: url("box7_image.jpg");   
+    background-size: cover; 
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.box-img8{
+    height: 330px;
+    width: 300px;
+    background-image: url("box8_image.jpg");   
+    background-size: cover; 
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.back-to-top{
+    height: 330px;
+    width: 300px;   
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
